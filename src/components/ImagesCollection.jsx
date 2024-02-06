@@ -2,7 +2,7 @@ import React from 'react'
 
 const ImagesCollection = () => {
     const imagesList = [...new Array(9)].map(
-        (number, index) => `/images/images-${index + 1}.jpg`
+        (number, index) => `/images/image-${index + 1}.jpg`
         );
 
   return (
