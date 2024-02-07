@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import { Header } from './components/Header';
 import { MenuOverlay }from './components/MenuOverlay';
 import ImagesCollection from './components/ImagesCollection';
+import { InformationSection } from './components/InformationSection';
 import { useState } from 'react';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
       <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
        <HeroSection />
+       <InformationSection />
        <ImagesCollection />
      </Container>
     </div>
