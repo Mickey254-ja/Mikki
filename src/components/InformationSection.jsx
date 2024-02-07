@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 export const InformationSection = () => {
   return (
-    <Container classNam="Informaion-section">
+    <Container className="information-section">
         <Row>
             <Col lg="6" className='Fs-7 px-3 font-weight-bold'>
                 <p>
